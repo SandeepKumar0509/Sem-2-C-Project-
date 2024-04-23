@@ -1,6 +1,6 @@
 # Sem-2-C-Project-
 project of c ++ 
-## # Library Management System
+##  Library Management System
 
 This is a simple C++ program that simulates a basic library management system. Users can add books to the library, display available books, check out books, and return books.
 
