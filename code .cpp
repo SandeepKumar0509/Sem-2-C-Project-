@@ -1,4 +1,4 @@
- #include <iostream>
+  #include <iostream>
 #include <vector>
 #include <string>
 
@@ -14,7 +14,7 @@ struct Book {
 void addBook(std::vector<Book>& library) {
     Book book;
     std::cout << "Enter the title of the book: ";
-    std::cin.ignore(); // Ignore newline character from previous input
+    std::cin.ignore(); // Ignore newline character from previous input 
     std::getline(std::cin, book.title);
     std::cout << "Enter the author of the book: ";
     std::getline(std::cin, book.author);
@@ -77,8 +77,7 @@ int main() {
         std::cout << "2. Display available books\n";
         std::cout << "3. Check out a book\n";
         std::cout << "4. Return a book\n";
-        std::cout<<"5.Enter the price of the book\n";
-        std::cout << "6. Exit\n";
+        std::cout << "5. Exit\n";
         std::cout << "Enter your choice: ";
         std::cin >> choice;
 
@@ -100,6 +99,7 @@ int main() {
                 break;
             default:
                 std::cout << "Invalid choice. Please try again.\n";
+                
         }
     } while (choice != 5);
 
